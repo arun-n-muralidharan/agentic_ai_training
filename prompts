@@ -30,3 +30,24 @@ Write the code in following sequence:
 3. Give Groq API
 4. Make a decision using LLM based on current application usage of network bandwidth.
 6. Show the output using Gradio; design a professional UI/UX interface.
+
+---
+
+pdf summarizer:
+
+Act as an experienced AI engineer.
+
+Your objective is to create a hybrid RAG application with langchain, which can provide a summary of the uploaded PDF and also answer questions based on the PDF. Use all open-source modules for the architecture. Use the following sequence:
+
+1. Chunk
+2. Tokenize
+3. Embed (use hybrid: dense + sparse)
+4. Index
+5. VectorDB (use FAISS)
+6. Retrieval
+7. LLMs
+8. Generate Response
+
+Show output (head) for each step.
+
+Write the code for Google Colab. Generate a professional UI using Gradio.
