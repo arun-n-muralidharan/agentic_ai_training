@@ -1,0 +1,32 @@
+rocket_engine_safety_shutdown:
+
+Act like an experienced Agentic AI designer.
+
+Your goal is to design a simple reflex agent system for rocket engine safety shutdown, where if the engine temperature is greater than a threshold, then trigger automatic shutdown to prevent catastrophic failure during launch.
+
+Write a python code in Google Colab, use langgraph framework. Use open source LLM llama-3.1-8b-instant and call the LLM from Groq.
+
+Write the code in following sequence:
+1. Install necessary libraries
+2. Import libraries
+3. Give Groq API
+4. Write the logic for the rocket engine safety shutdown
+5. LLM should give decorated output
+6. Show the output using Gradio; design a professional UI/UX interface. Show moving horizontal line with the name Rocket Engine Safety Shutdown by Kumampati Aerospace. Make professional product
+
+---
+
+network_bandwidth_optimization:
+
+Act like an experienced Agentic AI designer.
+
+Your goal is to design a goal-based AI agent system for optimizing network bandwidth in avionics routers.
+
+Write a python code in Google Colab, use crewai framework. Use open source LLM llama-3.1-8b-instant and call the LLM from Groq.
+
+Write the code in following sequence:
+1. Install necessary libraries
+2. Import libraries
+3. Give Groq API
+4. Make a decision using LLM based on current application usage of network bandwidth.
+6. Show the output using Gradio; design a professional UI/UX interface.
